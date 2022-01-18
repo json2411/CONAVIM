@@ -7,12 +7,26 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+        
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
         <link href="assets/css/baner.css" rel="stylesheet">
+        <link href="assets/css/violenciaGenero.css" rel="stylesheet">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        
+        <!--/* librerias para data tables*/-->
+        <script src="assets/js/jquery-3.3.1.js"></script>
+        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.css">
+        <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.js"></script>
+        <script src="assets/js/dataTables.js"></script>
+
+
+       
+
+       
+
       </head>
     <body>
-    
+
     <div class="container">
     <nav class="navbar navbar-expand-lg  barra">
   <div class="container-fluid">
@@ -31,7 +45,7 @@
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav" >
         <a class="nav-link active" aria-current="page" href="?c=home&a=Index"><img src="assets/images/home.png" class="image" alt="" width="70" height="70" data-bs-toggle="tooltip" data-bs-placement="bottom" title="HOME"></a>&nbsp &nbsp &nbsp &nbsp &nbsp
-        <a class="nav-link" href="#"><img src="assets/images/violencia-fisica.png" class="image" alt="ee"  width="70" height="70" data-bs-toggle="tooltip" data-bs-placement="bottom" title="VIOLENCIA DE GÉNERO"></a>&nbsp &nbsp &nbsp &nbsp
+        <a class="nav-link" href="?c=violenciaGenero&a=Index"><img src="assets/images/violencia-fisica.png" class="image" alt="ee"  width="70" height="70" data-bs-toggle="tooltip" data-bs-placement="bottom" title="VIOLENCIA DE GÉNERO"></a>&nbsp &nbsp &nbsp &nbsp
         <a class="nav-link" href="#"><img src="assets/images/boton-de-emergencia.png" class="image" alt=""  width="70" height="70" data-bs-toggle="tooltip" data-bs-placement="bottom" title="BOTONES DE EMERGENCIA" ></a>&nbsp &nbsp &nbsp &nbsp
         <a class="nav-link" href="#"><img src="assets/images/proteccion.png" class="image" alt=""  width="70" height="70" data-bs-toggle="tooltip" data-bs-placement="bottom" title="MEDIDAS DE PROTECCIÓN"></a>&nbsp &nbsp &nbsp &nbsp
         <a class="nav-link" href="#"><img src="assets/images/alerta.png"  class="image"alt=""  width="70" height="70" data-bs-toggle="tooltip" data-bs-placement="bottom" title="ALERTAMIENTOS DE RIESGO"></a>&nbsp &nbsp &nbsp &nbsp
@@ -51,3 +65,4 @@ var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
 </script>
 
     <div class="container">
+<br>
