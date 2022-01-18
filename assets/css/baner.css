@@ -1,0 +1,16 @@
+.barra {
+    background-color: #fdcadc;
+  
+}
+.image:hover{
+border-radius:50%;
+box-shadow: 0px 0px 15px 15px #d08ae8;
+
+}
+
+.footer{
+    background-color: #f8e6f1;
+    background-image: url("../images/banner_dimnc.jpg");
+    width: auto;
+    height: 100px;
+}
